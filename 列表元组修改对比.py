@@ -12,7 +12,7 @@ for _ in range(10000):
 end = time.time()
 print(f"修改列表耗时: {end - start:.4f} 秒")
 
-# 生成 100x100 的元组（内层为元组）
+# 生成 100x100 的元组
 tuple1 = tuple(tuple(0 for _ in range(100)) for _ in range(100))
 
 start = time.time()
